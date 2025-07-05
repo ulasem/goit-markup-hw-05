@@ -590,9 +590,13 @@ img {
   border: none;
 }
 
-.pop-up-btn:hover svg,
-.pop-up-btn:focus svg {
+.pop-up-btn:hover .pop-up-btn-svg,
+.pop-up-btn:focus .pop-up-btn-svg {
   fill: #ffffff;
+}
+
+.pop-up-btn-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pop-up-text {
