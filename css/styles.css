@@ -600,7 +600,6 @@ img {
 
 .pop-up-btn-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 16px;
 }
 
 .pop-up-text {
@@ -736,4 +735,5 @@ img {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
 }
